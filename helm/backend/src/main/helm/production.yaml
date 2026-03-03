@@ -10,6 +10,4 @@ resources:
     cpu: 500m
     memory: 1Gi
 
-route:
-  tls:
-    enabled: true
+secureTransport: "true"
