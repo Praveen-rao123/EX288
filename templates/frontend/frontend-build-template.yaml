@@ -5,6 +5,8 @@ metadata:
 labels:
   app: old
   key: value
+  app: catalog-ui
+  group: catalog 
  
 
   
@@ -14,7 +16,9 @@ parameters:
     #- description: Myapp configuration data
     #  name: MYPARAMETER
     # required: true
-
+- name: REGISTRY_URL
+  description: Container images registry url 
+  required: true
 - name: NAME
   required: true
 
