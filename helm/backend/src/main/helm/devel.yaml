@@ -1,5 +1,5 @@
 image:
-  repository: registry.domain1.example.com/finesmart/customer-backend
+  repository: registry.domain7.example.com/timesmart/customer-backend
 
 stage: devel
 
