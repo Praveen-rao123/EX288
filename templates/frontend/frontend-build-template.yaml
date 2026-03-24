@@ -6,8 +6,7 @@ labels:
   app: old
   key: value
   app: catalog-ui
-  group: catalog 
- 
+  group: catalog
 
   
 parameters:
@@ -19,6 +18,7 @@ parameters:
 - name: REGISTRY_URL
   description: Container images registry url 
   required: true
+
 - name: NAME
   required: true
 
