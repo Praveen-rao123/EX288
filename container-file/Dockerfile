@@ -1,6 +1,6 @@
 FROM ubi-micro:latest
 
-ARG BUILDREPO=https://github.com/Praveen-rao123/EX288/tree/main/binary/postal-1.0
+ARG BUILDREPO=https://incorrect-url
 
 WORKDIR /opt/app-root
 
